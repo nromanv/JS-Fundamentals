@@ -28,18 +28,18 @@ isAdult = confirm("Are you adult?");
 console.log(isAdult);
 
 // task-6
-let name = "roman";
-let surname = "nakonechnyi";
+let myName = "roman";
+let mySurname = "nakonechnyi";
 let group = 1;
 let bornYear = 1985;
 let marriedStatus = true;
-typeof (name);
-typeof (surname);
-typeof (group);
-typeof (bornYear);
-typeof (marriedStatus);
+console.log(typeof myName);
+console.log(typeof mySurname);
+console.log(typeof group);
+console.log(typeof bornYear);
+console.log(typeof marriedStatus);
 
-console.log(group, bornYear, marriedStatus, name, surname);
+console.log(group, bornYear, marriedStatus, myName, mySurname);
 
 let info = null;
 let otherInfo = undefined;
