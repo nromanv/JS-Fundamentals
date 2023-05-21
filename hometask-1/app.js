@@ -54,4 +54,13 @@ let userPassword = prompt("What is your password?");
 alert(`Dear User, your login is ${userLogin}, your email is ${userEmail}, your password is ${userPassword}`);
 
 //task-8
+const secondsInMinute = 60;
+const secondsInHour = secondsInMinute * 60;
+const secondsInDay = secondsInHour * 24;
+const secondsInMonth = secondsInDay * 31;
+const secondsInYear = secondsInMonth * 12;
 
+console.log(secondsInHour);
+console.log(secondsInDay);
+console.log(secondsInMonth);
+console.log(secondsInYear);
