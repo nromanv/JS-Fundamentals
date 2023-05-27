@@ -138,7 +138,6 @@ function findUnique(arr) {
         return false; //якщо знаходитмо повторення > 1;
       }
     }
-  
     return true;
   }
   
