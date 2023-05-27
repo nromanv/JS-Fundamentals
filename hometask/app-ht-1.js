@@ -1,4 +1,4 @@
-// task-2
+/*// task-2
 console.log("Nakonechnyi");
 
 // task-3
@@ -64,3 +64,4 @@ console.log(secondsInHour);
 console.log(secondsInDay);
 console.log(secondsInMonth);
 console.log(secondsInYear);
+*/
