@@ -1,0 +1,107 @@
+--------------Hometask-3-----------------
+
+//--------------Task-1-------------------
+/*
+function createArray(a, b) {
+    let arr = [];
+    for (let i = a; i <= b; i++) {
+        arr.push(i);
+    }
+    return arr;
+}
+console.log(createArray(3, 7));
+*/
+
+//--------------Task-2-------------------
+/*
+const a = 1;
+const b = 6;
+
+for (let i = a; i <= b; i++) {
+    for (let j = 1; j <= i; j++) {
+        console.log(i);
+    }
+}
+*/
+
+//--------------Task-3-------------------
+/*
+function randArray(k) {
+    const arr = [];
+    for (let i = 0; i < k; i++) {
+        arr.push(Math.floor(Math.random() * 500));
+    } console.log(arr);
+}
+randArray(5);
+*/
+
+//--------------Task-4-------------------
+/*  
+function compact(arr) {
+    const arr2 = [];
+    arr.sort((a, b) => a - b);
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] !== arr[i + 1]) {
+            arr2.push(arr[i]);
+        }
+    } console.log(arr2);
+} 
+compact(arr);
+*/
+
+//--------------Task-5-------------------
+/*
+function arrTypes(arr) {
+    const strArr = [];
+    const numArr = [];
+    const otherArr = [];
+
+    const copyArr = arr.flat();
+
+    for (let i = 0; i < copyArr.length; i++) {
+        if (typeof copyArr[i] === 'string') {
+            strArr.push(copyArr[i]);
+        } else if (typeof copyArr[i] === 'number') {
+            numArr.push(copyArr[i]);
+        } else {
+            otherArr.push(copyArr[i]);
+        }
+    }
+
+    console.log(strArr);
+    console.log(numArr);
+    console.log(otherArr);
+};
+
+let arr = [5, 'Limit', 12, 'a', '3', 99, 2, [2, 4, 3, '33', 'a', 'text'], 'strong', 'broun'];
+let arrNew = arrTypes(arr);
+*/
+
+//--------------Task-6-------------------
+/*
+function calc(a, b, op) {
+    if (op == 1) {
+        return a - b;
+    } else if (op == 2) {
+        return a * b;
+    } else if (op == 3) {
+        return a / b;
+    } else {
+        return a + b;
+    } 
+};
+console.log(calc(1, 7, 8));
+*/
+
+//--------------Task-7-------------------
+/*
+function findUnique(arr) {
+    arr.sort((a, b) => a - b)
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === arr[i + 1]) {
+            return true;
+        }; 
+    }   return false;
+};
+console.log(findUnique(arr));
+*/
