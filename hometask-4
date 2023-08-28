@@ -1,1 +1,33 @@
 
+//--------------Task-2-------------------
+
+function checkAge() {
+    const name = prompt("enter your name, pleace");
+    const age = +prompt("enter your age, pleace");
+    const status = prompt("Enter your status (admin, moderator, user), please");
+
+    if (age < 18 || age > 70) {
+        throw new RangeError("Age must be between 18 and 70");
+    }
+
+    if (isNaN(age)) {
+        throw new EvalError("Age must be a number");
+    }
+
+    if (name === null || name === "" || age === null || status === null || status === "") {
+        throw new Error("The field is empty");
+    }
+
+    if (status !== "admin" || status !== "moderator" || status !== "user") {
+        throw new EvalError("The wrong value");
+    }
+
+    alert("you can watch a movie");
+}
+
+try {
+    checkAge();
+} catch (error) {
+    alert(error.name);
+    alert(error.message);
+}
