@@ -31,3 +31,25 @@ try {
     alert(error.name);
     alert(error.message);
 }
+
+//--------------Task-3-------------------
+/*
+function calcRectangleArea(width, height) {
+    const RectangleArea = width * height;
+
+    if (isNaN(width) || isNaN(height)) {
+        throw new EvalError("Must be a number!");
+    }
+    if (width <= 0 || height <= 0) {
+        throw new RangeError("Value must be more than zero");
+    }
+    console.log(RectangleArea);
+}
+
+try {
+    calcRectangleArea(4, 7);
+} catch (error) {
+    console.log(error.name);
+    console.log(error.message);
+}
+*/
