@@ -1,5 +1,5 @@
 //--------------Task-1-------------------
-
+/*
 function sumSliceArray(arr, first, second) {
     const newArr = arr.slice(first, second);
     const sum = newArr[first] + arr[second];
