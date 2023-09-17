@@ -15,4 +15,24 @@ if (regExp.test($link)) {
 console.log($('.link')[0].outerHTML);
 */
 
-//-----------------task-2---------------------------
+//-----------------task-3---------------------------
+/*
+const $text1 = $('div').first();
+const $header1 = $('h3').first();
+const $text2 = $('div').last();
+$text1.before($header1);
+$text2.after($header1);
+*/
+
+//-----------------task-4---------------------------
+/*
+$('input[type="checkbox"]').change(function() {
+    const checkedBoxes = $('input[type="checkbox"]:checked');
+
+    if (checkedBoxes.length === 3) {
+        $('input[type="checkbox"]').not(checkedBoxes).prop('disabled', true);
+    } else {
+        $('input[type="checkbox"]').prop('disabled', false);
+    }
+});
+*/
