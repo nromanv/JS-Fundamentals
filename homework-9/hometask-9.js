@@ -28,11 +28,10 @@ $text2.after($header1);
 /*
 $('input[type="checkbox"]').change(function() {
     const checkedBoxes = $('input[type="checkbox"]:checked');
+    const $checkBox = $('input[type="checkbox"]');
 
     if (checkedBoxes.length === 3) {
-        $('input[type="checkbox"]').not(checkedBoxes).prop('disabled', true);
-    } else {
-        $('input[type="checkbox"]').prop('disabled', false);
+        $checkBox.not(checkedBoxes).prop('disabled', true);
     }
 });
 */
